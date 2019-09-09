@@ -14,7 +14,10 @@ function openxm(title, url) {
 }
 // 产业类别选择
 
-$(".s").fixedScroll();
+$(".scr-l").fixedScroll();
+$(".scr-r").fixedScroll();
+$(".scr-t").fixedScroll();
+
 // 滚动跟随
 
 $.emoticons({

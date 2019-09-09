@@ -25,7 +25,7 @@
         this.fixedEl = $fixedEl; //固定元素
         this.fixedElH = $fixedEl.height();
         this.fixedElW = $fixedEl.width();
-        this.fixedElL = $fixedEl.offset().left;
+        this.fixedElL = $fixedEl.offset();
         this.winEl = $(window);
         this.offset = parseInt(this.offset || 0);
         this.hookArea = [];
